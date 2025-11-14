@@ -12,15 +12,15 @@ int main()
     if (b != 0)
     {
         quot = (float)a / b;
-        printf("Quotient is = %.2f\n", qout);
+        printf("Quotient is = %.2f\n", quot);
     }
     else
     {
         printf(" Division is not possible(Denominater is 0)/n");
     }
-    Printf("Sum is = %d\n", sum);
-    Printf("Diffrence = %d\n", diff);
-    Printf("Product = %d\n", prod);
+    printf("Sum is = %d\n", sum);
+    printf("Diffrence = %d\n", diff);
+    printf("Product = %d\n", prod);
 
     return 0;
 }
